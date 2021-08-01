@@ -42,6 +42,8 @@
 		418949D6261A359900744980 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418949D5261A359900744980 /* SearchVC.swift */; };
 		41BF783326AF190600644A2E /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BF783226AF190600644A2E /* GFTabBarController.swift */; };
 		41BF783826B03BCC00644A2E /* GFDataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BF783726B03BCC00644A2E /* GFDataLoadingVC.swift */; };
+		41BF783B26B2BADB00644A2E /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BF783A26B2BADB00644A2E /* UIView+Ext.swift */; };
+		41BF783E26B6C76400644A2E /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BF783D26B6C76400644A2E /* UITableView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +84,8 @@
 		418949D5261A359900744980 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		41BF783226AF190600644A2E /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
 		41BF783726B03BCC00644A2E /* GFDataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFDataLoadingVC.swift; sourceTree = "<group>"; };
+		41BF783A26B2BADB00644A2E /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		41BF783D26B6C76400644A2E /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +140,8 @@
 			children = (
 				415690A02675544C0066CACB /* UIViewController+Ext.swift */,
 				4107F0BB26821DD500FDD1F2 /* Date+Ext.swift */,
+				41BF783A26B2BADB00644A2E /* UIView+Ext.swift */,
+				41BF783D26B6C76400644A2E /* UITableView+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -351,6 +357,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41BF783B26B2BADB00644A2E /* UIView+Ext.swift in Sources */,
 				415690A826755A5D0066CACB /* GFAlertContainerView.swift in Sources */,
 				4185308F26751A3E00E93A96 /* GFTextField.swift in Sources */,
 				417B69A6261A380B00155EC9 /* FavoritesListVC.swift in Sources */,
@@ -382,6 +389,7 @@
 				418949BC261A25DE00744980 /* AppDelegate.swift in Sources */,
 				4107F0AD2681FE0500FDD1F2 /* GFItemInfoView.swift in Sources */,
 				418949BE261A25DE00744980 /* SceneDelegate.swift in Sources */,
+				41BF783E26B6C76400644A2E /* UITableView+Ext.swift in Sources */,
 				4167C06A2681EEEE00383750 /* Constants.swift in Sources */,
 				41BF783326AF190600644A2E /* GFTabBarController.swift in Sources */,
 			);
